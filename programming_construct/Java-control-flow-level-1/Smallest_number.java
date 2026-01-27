@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Smallest_number
+{
+	public static void main(String args[])
+	{
+		Scanner input = new Scanner(System.in);
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		int num3 = input.nextInt();
+		if (num1 > num2 && num1 > num3)
+		{
+			System.out.println("not a smallest number");
+		}
+		else
+		{
+			System.out.println("it's a smallest number");
+		}
+	}
+}
